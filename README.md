@@ -8,7 +8,7 @@ Samples derived from TCGA database were divided into the tumor or normal group. 
 # 2. Identification of CNV-Driven DELncRNAs
 #Merge all the segmentation files into a text.
 
-**perl cnvMerge.pl** # Running the script in directory with all the segmentation files, it will produce a file named 'cnvMatrix.txt'.
+**perl cnvMerge.pl** # Running the script in the directory with all the segmentation files, it will produce a file named 'cnvMatrix.txt'.
 
 **perl prepareChi.pl** # Preparing the input file for Chi-Square Test, the output file is 'chiInput.txt'.
 
