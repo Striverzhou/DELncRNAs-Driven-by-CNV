@@ -12,7 +12,7 @@ Samples derived from TCGA database were divided into the tumor or normal group. 
 
 **perl prepareChi.pl** # Preparing the input file for Chi-Square Test, the output file is 'chiInput.txt'.
 
-**Rscript chi.R** #The chi-square test was used to analyze whether there is a significant difference in the CNV of lncRNA in normal tissue samples and tumor samples. The Bonferroni method was used to correct the p-value and lncRNAs with CNVs with adjusted. The output file is 'chiResult.txt'.
+**Rscript chi.R** #The chi-square test was used to analyze whether there is a significant difference in the CNV of lncRNA in normal tissue samples and tumor samples. The Bonferroni method was used to correct the p-value and lncRNAs with CNVs with adjusted. The output files are 'chiResult.txt' and 'diffCNV_lncRNAs.txt'.
 
 #Plot the circle map of lncRNA CNVs
 
